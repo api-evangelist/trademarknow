@@ -1,8 +1,25 @@
 aid: trademarknow
-name: trademarknow
-description: trademarknow is a company surfaced as a portfolio company of balderton-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trademarknow.png
+name: TrademarkNow
+description: TrademarkNow is an AI-native trademark clearance, screening, and watching platform, now
+  part of Corsearch. It helps brand owners and legal teams create, launch, and defend trademarks
+  globally using neural-network models that analyze phonetics, spelling, meaning, and visuals to
+  surface conflicts across trademark registries. Its modules include ExaMatch for preliminary
+  screening across 190+ registries with phonetic matching, NameCheck for instant trademark risk
+  assessment, LogoCheck for deep-learning image-based logo conflict clearance, and Portfolio Analyzer
+  for portfolio-strength benchmarking and coverage-gap analysis. TrademarkNow is delivered as a SaaS
+  web platform (login at tm.corsearch.com) and does not publish a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/trademarknow/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Trademark
+- Intellectual Property
+- Legal Tech
+- Brand Protection
+- Trademark Search
+- Artificial Intelligence
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/trademarknow-domain-security.yml
 - type: Website
   url: https://www.trademarknow.com/
+- type: Login
+  url: https://tm.corsearch.com/login
+- type: PrivacyPolicy
+  url: https://corsearch.com/privacy-policy/
+- type: TermsOfService
+  url: https://corsearch.com/user-agreement
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
