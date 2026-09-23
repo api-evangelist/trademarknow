@@ -1,0 +1,27 @@
+# Front Door AI Index — trademarknow — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: trademarknow
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.trademarknow.com
+  final_host: corsearch.com
+  ownership: own
+  owner: trademarknow
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 15
+  host_score: 15
+  density: 12.25
+  words: 1224
+  tiers:
+    agentic: 0
+    core: 15
+    model: 0
+  ambiguous: 7
+  top_terms:
+    AI: 15
+    intelligence: 6
+    automation: 1
